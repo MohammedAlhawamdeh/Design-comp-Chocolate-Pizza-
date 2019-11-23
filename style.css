@@ -1,42 +1,59 @@
 body {
     font-family: 'Noto Serif', serif;
-    width: 960px;
+    width: 901px;
     margin: auto;
 }
 
 header {
     content: " ";
     display: block;
-    border-bottom: 10px dotted #000000;
 }
 
 header img {
     float: left;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 #topHead {
     font-family: 'Yellowtail', cursive;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 27px;
+}
+#bottomHead {
+    font-size: 10px;
 }
 
 nav {
     float: right;
+    margin-right: 1px;
+}
+hr {
+    background-image: url(img/hr-img.png);
+    background-repeat: repeat;
+    height: 15px;
+    border: none;
+    margin-top: 30px;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    margin: 0px;
+    font-size: 35px;
+    margin: 5px;
+    line-height: 35px;
 }
 
 body {
     font-family: 'Noto Serif', serif;
-    width:960px;
+    width:901px;
 }
 
 h2, h3 {
     text-transform: uppercase;
     color: grey;
     font-family: 'Strait', sans-serif;
+    font-size: 13px;
 }
 
 .articlehead {
@@ -58,32 +75,44 @@ h2, h3 {
 #cake {
     width: 100%;
 }
+article p{
+    font-size: 17px;
+    color: rgb(78, 78, 78);
+}
 
 .table {
     font-family: 'Patrick Hand', cursive;
 }
 
 .container {
+    background-image: url(img/list-bg.png);
     position: relative;
-    text-align: center;
+    text-align: left;
     color: black;
 }
 
  .Tables {
-    font-family: 'Patrick Hand', cursive;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
+  display: inline-block;
 }
 
 #table1 {
     float: left;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(70, 64, 50);
+
 }
 
 #table2 {
-    float: left;
+    float: right;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(70, 64, 50);
+}
+#linethrough {
+    text-decoration-line: line-through;
 }
 
 ul, li {
@@ -95,23 +124,40 @@ li {
     margin-left: 0;
 }
 
-li button {
+ button {
     margin-right: 2em;
-}
-
-main {
-    border-bottom: 10px dotted black;
+    float: right;
+    background-color: rgb(231, 90, 90);
+    color: white;
+    border: none;
+    height: 60px;
+    width: 200px;
+    
 }
 
 footer img {
     float: left;
+    margin-right: 10px;
 }
 
 footer button {
     float: right;
 }
+footer h4 {
+    font-size: 20px;
+    line-height: 0px;
+}
+#info {
+    font-size: 15px;
+}
 
+#footlogo {
+
+    margin-left: 435px;
+    opacity: 25%;
+}
 #copyright {
     text-align: center;
     color: gray;
+    font-size: 15px;
 }
